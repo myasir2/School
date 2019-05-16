@@ -1,0 +1,34 @@
+* * * * * * * * * * * * Testing HashTable Table* * * * * * * * * * * * * * * *
+Test 1: initialization and update
+Test 2: Add some more records (more than expected)
+Test 3: Checking hashtableTable::find() and that records were properly recorded...
+Test 4: Change some records in hashtable table and see if it still works
+Test 5: Checking hashtable::find() and whether or not records were properly updated...
+Test 6: Create a table using copy constructor
+Test 7: Remove some records that exist from hashtable table...
+Test 8: Check that removed records are gone and other are unaffected in hashtable table...
+Test 9: Attempt to remove some records that do not exist from the table
+Test 10: Checking hashtableCopy to see that it was unaffected by removing from hashtable
+Test 11: Test assignment operator
+Test 12: Add the removed items back to hashtable table...
+Test 13: Checking that everything in hashtable was properly updated adding adding removed records back
+13 out of 13 tests passed.
+Congratulations, looks like your assignment is completed
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Timing summary: Hash Table
+
+Number of records: 150000
+Number over initial size: 0
+
+     Operation                        |    Time     
+--------------------------------------|-------------
+ update, new record                   |  0.34
+ update, new rec, over initial size   |  0.07
+ update, modify record                |  0.23
+ find                                 |  1.31
+ remove  (item in list)               |  0.02
+ remove  (item not in list)           |  0.02
+ copy constructor                     |  0.12
+ assignment operator                  |  0.11
+
